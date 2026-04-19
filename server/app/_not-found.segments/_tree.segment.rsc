@@ -1,2 +1,2 @@
-:HL["/nextli-app/_next/static/chunks/0u83n7rt2szoi.css","style"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"/_not-found","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"duuftrZMqt10MGPTjytK8"}
+:HL["/_next/static/chunks/0hqoqcye0kojj.css","style"]
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"/_not-found","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"nKpZMwzYbquZkR6HiUDtG"}
