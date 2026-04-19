@@ -67,6 +67,8 @@ export default function Home() {
 
   const userInfo = crypto.randomUUID();
 
+  console.log('User Info:', userInfo);
+
 Intercom({
   app_id: 'kkq1zfnu',
   user_id: userInfo, // IMPORTANT: Replace "user.id" with the variable you use to capture the user's ID
