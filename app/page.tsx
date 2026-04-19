@@ -1,4 +1,5 @@
 export default function Home() {
+  const basePath = process.env.NODE_ENV === 'production' ? '/nextli-app' : '';
   const services = [
     {
       title: 'Ruta Lago Coatepeque',
@@ -78,7 +79,7 @@ export default function Home() {
 
           <div className="flex justify-center md:justify-end">
             <img
-              src="/nextli-logo.png"
+              src={`${basePath}/nextli-logo.png`}
               alt="Logo de Nextli"
               className="h-auto w-[220px] object-contain md:w-[260px]"
             />
@@ -158,7 +159,7 @@ export default function Home() {
 
           <div className="h-full min-h-[320px] bg-[#e9e4db]">
             <img
-              src="/nextli-riders.png"
+              src={`${basePath}/nextli-riders.png`}
               alt="Riders de Nextli en ruta"
               className="h-full w-full object-cover"
             />
