@@ -65,8 +65,14 @@ export default function Home() {
     },
   ];
 
+  const userInfo = crypto.randomUUID();
+
 Intercom({
   app_id: 'kkq1zfnu',
+  user_id: userInfo, // IMPORTANT: Replace "user.id" with the variable you use to capture the user's ID
+  name: `Name - ${userInfo}`, // IMPORTANT: Replace "user.name" with the variable you use to capture the user's name
+  email: `${userInfo}@gmail.com`, // IMPORTANT: Replace "user.email" with the variable you use to capture the user's email
+  created_at: Math.floor(Date.now() / 1000), // IMPORTANT: Replace "user.createdAt" with the variable you use to capture the user's sign-up date in a Unix timestamp (in seconds) e.g. 1704067200
 });
 
   return (
