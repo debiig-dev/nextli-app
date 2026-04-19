@@ -1,3 +1,5 @@
+import Intercom from "@intercom/messenger-js-sdk";
+
 export default function Home() {
   const basePath = process.env.NODE_ENV === 'production' ? '/nextli-app' : '';
   const services = [
@@ -62,6 +64,10 @@ export default function Home() {
       ],
     },
   ];
+
+Intercom({
+  app_id: 'kkq1zfnu',
+});
 
   return (
     <main className="min-h-screen bg-[#f6f4f2] text-[#1f2937]">
